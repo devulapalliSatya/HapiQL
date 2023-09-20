@@ -1,0 +1,29 @@
+{
+  "name": "hapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.ts",
+    "start:dev": "nodemon index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/hapi": "^18.0.10",
+    "@types/node": "^20.5.3",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "apollo-server": "^3.12.1",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.8.1",
+    "graphql-server-hapi": "^1.4.1",
+    "graphql-tools": "^9.0.0",
+    "graphql-yoga": "^4.0.4",
+    "hapi-plugin-graphiql": "^2.3.0"
+  }
+}
